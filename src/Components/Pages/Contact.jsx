@@ -24,7 +24,7 @@ const Contact = () => {
               <textarea
                 placeholder="Message"
                 className="p-3 rounded bg-gray-700 text-white"></textarea>
-              <button className="px-6 py-3 bg-cyan-400 text-black font-semibold rounded-xl hover:bg-cyan-300">
+              <button className="px-6 py-3 bg-cyan-400 text-black font-semibold rounded-xl hover:bg-[#16476A]">
                 Send
               </button>
             </form>

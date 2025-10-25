@@ -23,28 +23,28 @@ const Project = () => {
               <a
                 href="https://uomo-e-commerce-pages-responsive-up.vercel.app/"
                 target="_blank">
-                <div className="bg-cyan-400 rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
+                <div className="bg-[#16476A] rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
                   Uomo E-Commerce project
                 </div>
               </a>
               <a
                 href="https://hanko-website-project-react-tailwin.vercel.app/"
                 target="_blank">
-                <div className="bg-cyan-400 rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
+                <div className="bg-[#16476A] rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
                   Hankco Project
                 </div>
               </a>
               <a
-                href="https://creative-26-responsive.vercel.app/ "
+                href="https://xgenious-landing-pages.vercel.app/"
                 target="-blank">
-                <div className="bg-cyan-400 rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
-                  Creative-26 Project
+                <div className="bg-[#16476A] rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
+                  xenious Project
                 </div>
               </a>
               <a
                 href="https://oribi-fore-responsive-update.vercel.app/"
                 target="_blank">
-                <div className="bg-cyan-400 rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
+                <div className="bg-[#16476A] rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
                   Oribi E- Commerce Project
                 </div>
               </a>
