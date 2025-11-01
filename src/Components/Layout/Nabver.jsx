@@ -37,7 +37,7 @@ const Nabver = () => {
         <Link to={"/"}><h1 className="text-2xl font-bold text-cyan-400" onClick={scrollToTop} >
            <Images ImgSrc={LogoPng} AltSrc={"LogoPng"} className={"h-[50px] w-[80px]"}/>
           </h1></Link>
-      <NavbarToggle />
+      <NavbarToggle className="text-3xl"/>
       <NavbarCollapse >
         {/* <NavbarLink > */}
           <ul className="flex-col  md:flex-row flex gap-y-3 absolute left-0 top-18 bg-gray-900 w-full">

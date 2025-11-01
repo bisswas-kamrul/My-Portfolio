@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../../Container";
 import Flex from "../../Flex";
 import Images from "../../Images";
-import VennarJpg from "../../assets/vennar.jpg";
+import VennarJpg from "../../assets/ais kamrul islam updete.png";
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-router";
 const Vennar = () => {
@@ -35,7 +35,7 @@ const Vennar = () => {
               <Images
                 ImgSrc={VennarJpg}
                 AltSrc={"vennar.jpg"}
-                className={"h-[400px] w-[400px] mt-5 md:ml-40"}
+                className={"h-[400px] w-[400px] mt-5 md:ml-40 rounded-full object-cover"}
               />
             </div>
           </Flex>
