@@ -1,8 +1,12 @@
 import React from "react";
 import Container from "../../Container";
 import Flex from "../../Flex";
-import uomoSc from "../../assets/uomo320ss.png";
-
+import Images from "../../Images";
+import umopsd from "../../assets/Uomo.png";
+import { Button } from "flowbite-react";
+import hankopsd from "../../assets/Honkon.png"
+import xeonpsd from "../../assets/xeion.png"
+import orbiopsd from "../../assets/orbe.png"
 const Project = () => {
   return (
     <>
@@ -19,35 +23,70 @@ const Project = () => {
               scalable, and interactive React applications Complete end-to-end
               web solutions with MERN stack.
             </h6>
-            <Flex className={"flex-col gap-y-10 sm:flex-row flex flex-wrap justify-around items-center sm:pt-5"}>
-              <a
-                href="https://uomo-e-commerce-pages-responsive-up.vercel.app/"
-                target="_blank">
-                <div className="bg-[#16476A] rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
-                  Uomo E-Commerce project
+            <Flex
+              className={
+                "flex-col gap-y-10 sm:flex-row flex flex-wrap justify-around items-center sm:pt-5 mt-5"
+              }>
+              <div className="bg-[#16476A] rounded-xl h-[300px] md:h-[450px] w-[270px] sm:w-[250px] md:w-[500px] text-white font-kamrul pt-7  duration-2000 transition-all">
+                Uomo E-Commerce Website
+                <Images ImgSrc={umopsd} AltSrc={"umopsd"}/>
+                <div className="flex justify-around items-center mt-2">
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                    Figma
+                  </Button>
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                   tailwind
+                  </Button>
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                   react
+                  </Button>
                 </div>
-              </a>
-              <a
-                href="https://hanko-website-project-react-tailwin.vercel.app/"
-                target="_blank">
-                <div className="bg-[#16476A] rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
-                  Hankco Project
+              </div>
+              <div className="bg-[#16476A] rounded-xl h-[300px] md:h-[450px] w-[270px] sm:w-[250px] md:w-[500px] text-white font-kamrul pt-7  duration-2000 transition-all">
+                Hankco Landing website
+                <Images ImgSrc={hankopsd} AltSrc={"hankopsd"}/>
+                <div className="flex justify-around items-center mt-2">
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                    Figma
+                  </Button>
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                   tailwind
+                  </Button>
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                   react
+                  </Button>
                 </div>
-              </a>
-              <a
-                href="https://xgenious-landing-pages.vercel.app/"
-                target="-blank">
-                <div className="bg-[#16476A] rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
-                  xenious Project
+              </div>
+              <div className="bg-[#16476A] rounded-xl h-[300px] md:h-[450px] w-[270px] sm:w-[250px] md:w-[500px] text-white font-kamrul pt-7  duration-2000 transition-all">
+               xenious Landing Website
+                <Images ImgSrc={xeonpsd} AltSrc={"xeonpsd"}/>
+                <div className="flex justify-around items-center mt-2">
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                    Figma
+                  </Button>
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                   tailwind
+                  </Button>
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                   react
+                  </Button>
                 </div>
-              </a>
-              <a
-                href="https://oribi-fore-responsive-update.vercel.app/"
-                target="_blank">
-                <div className="bg-[#16476A] rounded-xl h-[100px] w-[270px] sm:w-[250px] md:w-[230px] text-white font-kamrul pt-10 hover:scale-110 duration-2000 transition-all">
-                  Oribi E- Commerce Project
+              </div>
+              <div className="bg-[#16476A] rounded-xl h-[300px] md:h-[450px] w-[270px] sm:w-[250px] md:w-[500px] text-white font-kamrul pt-7  duration-2000 transition-all">
+                Oribi E- Commerce website
+                <Images ImgSrc={orbiopsd} AltSrc={"orbiopsd"}/>
+                <div className="flex justify-around items-center mt-2">
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                    Figma
+                  </Button>
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                   tailwind
+                  </Button>
+                  <Button className="h-[40px] w-[80px] border-1 font-kamrul cursor-pointer  rounded-md transition-all duration-500">
+                   react
+                  </Button>
                 </div>
-              </a>
+              </div>
             </Flex>
           </div>
         </Container>
