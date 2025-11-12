@@ -34,14 +34,14 @@ const Services = () => {
                     <a
                       href="https://github.com/bisswas-kamrul/Uomo-E-commerce-pages-responsive-update"
                       target="_blank">
-                      <Button className="bg-cyan-400 font-kamrul cursor-pointer">
+                      <Button className="h-[40px] w-[80px] rounded-[10px] bg-cyan-400 font-kamrul cursor-pointer">
                         Code
                       </Button>
                     </a>
                     <a
                       href="https://uomo-e-commerce-pages-responsive-up.vercel.app/"
                       target="_blank">
-                      <Button className="bg-cyan-400 font-kamrul cursor-pointer">
+                      <Button className="h-[40px] w-[80px] rounded-[10px] bg-cyan-400 font-kamrul cursor-pointer">
                         Live
                       </Button>
                     </a>
@@ -60,14 +60,14 @@ const Services = () => {
                     <a
                       href="https://github.com/bisswas-kamrul/Hanko-website-project-react-tailwind-responsive"
                       target="_blank">
-                      <Button className="bg-cyan-400 font-kamrul cursor-pointer">
+                      <Button className="h-[40px] w-[80px] rounded-[10px] bg-cyan-400 font-kamrul cursor-pointer">
                         Code
                       </Button>
                     </a>
                     <a
                       href="https://hanko-website-project-react-tailwin.vercel.app/"
                       target="_blank">
-                      <Button className="bg-cyan-400 font-kamrul cursor-pointer">
+                      <Button className="h-[40px] w-[80px] rounded-[10px] bg-cyan-400 font-kamrul cursor-pointer">
                         Live
                       </Button>
                     </a>
@@ -86,14 +86,14 @@ const Services = () => {
                     <a
                       href="https://github.com/bisswas-kamrul/Xgenious-landing-pages"
                       target="_blank">
-                      <Button className="bg-cyan-400 font-kamrul cursor-pointer">
+                      <Button className="h-[40px] w-[80px] rounded-[10px] bg-cyan-400 font-kamrul cursor-pointer">
                         Code
                       </Button>
                     </a>
                     <a
                       href="https://xgenious-landing-pages.vercel.app/"
                       target="_blank">
-                      <Button className="bg-cyan-400 font-kamrul cursor-pointer">
+                      <Button className="h-[40px] w-[80px] rounded-[10px] bg-cyan-400 font-kamrul cursor-pointer">
                         Live
                       </Button>
                     </a>
@@ -112,14 +112,14 @@ const Services = () => {
                     <a
                       href="https://github.com/bisswas-kamrul/Oribi-Fore-Responsive-Update"
                       target="_blank">
-                      <Button className="bg-cyan-400 font-kamrul cursor-pointer">
+                      <Button className="h-[40px] w-[80px] rounded-[10px] bg-cyan-400 font-kamrul cursor-pointer">
                         Code
                       </Button>
                     </a>
                     <a
                       href="https://oribi-fore-responsive-update.vercel.app/"
                       target="_blank">
-                      <Button className="bg-cyan-400 font-kamrul cursor-pointer">
+                      <Button className="h-[40px] w-[80px] rounded-[10px] bg-cyan-400 font-kamrul cursor-pointer">
                         Live
                       </Button>
                     </a>
